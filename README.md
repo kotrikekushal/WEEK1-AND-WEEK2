@@ -1,6 +1,6 @@
 # WEEK1-AND-WEEK2
 
-This repository contains **10 Hash Table System Design Programs implemented in Java**.
+This repository contains 10 Hash Table based System Design Programs implemented in Java.
 
 ## Programs Included
 
@@ -12,16 +12,16 @@ This repository contains **10 Hash Table System Design Programs implemented in J
 6. Distributed Rate Limiter
 7. Autocomplete System
 8. Parking Lot Management
-9. Two Sum Transaction Analysis
+9. Two Sum Transaction Analyzer
 10. Multi-Level Cache System
 
-## Language Used
-Java
+## Technologies Used
+Java  
+HashMap
 
 ## Concepts Covered
-- HashMap
 - Hash Tables
+- HashMap
 - Frequency Counting
 - Collision Handling
-- Real-time Data Processing
 - System Design Basics
