@@ -2,11 +2,12 @@ import java.util.*;
 
 public class Problem9_TwoSumTransactions {
 
-    int[] twoSum(int[] arr,int target){
+    public int[] twoSum(int[] arr,int target){
 
         HashMap<Integer,Integer> map=new HashMap<>();
 
         for(int i=0;i<arr.length;i++){
+
             int c=target-arr[i];
 
             if(map.containsKey(c))
@@ -22,7 +23,7 @@ public class Problem9_TwoSumTransactions {
 
         Problem9_TwoSumTransactions obj=new Problem9_TwoSumTransactions();
 
-        int[] arr={200,300,500};
+        int[] arr={500,300,200};
 
         int[] res=obj.twoSum(arr,500);
 

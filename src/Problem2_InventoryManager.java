@@ -14,7 +14,8 @@ public class Problem2_InventoryManager {
         return stock.getOrDefault(id,0);
     }
 
-    public String purchase(String id,int user){
+    public String purchaseItem(String id,int user){
+
         if(stock.getOrDefault(id,0)>0){
             stock.put(id,stock.get(id)-1);
             return "Success";
@@ -28,14 +29,13 @@ public class Problem2_InventoryManager {
 
         Problem2_InventoryManager obj=new Problem2_InventoryManager();
 
-        obj.addProduct("IPHONE15",5);
+        obj.addProduct("IPHONE15",3);
 
         System.out.println(obj.checkStock("IPHONE15"));
 
-        System.out.println(obj.purchase("IPHONE15",101));
-        System.out.println(obj.purchase("IPHONE15",102));
-
-        System.out.println(obj.checkStock("IPHONE15"));
-
+        System.out.println(obj.purchaseItem("IPHONE15",101));
+        System.out.println(obj.purchaseItem("IPHONE15",102));
+        System.out.println(obj.purchaseItem("IPHONE15",103));
+        System.out.println(obj.purchaseItem("IPHONE15",104));
     }
 }
